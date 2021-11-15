@@ -30,8 +30,7 @@ title:
 4. [Experiment Setup and Implementation](#experiment-setup-and-implementation)
 5. [Results and Analysis](#results-and-analysis)
 6. [Conclusion](#conclusion)
-7. [Publications](#publications)
-8. [Links](#links)
+7. [Links](#links)
 
 ---
 
@@ -49,17 +48,9 @@ Machine Learning (ML) has contributed to many advances in science and technology
 ## Conclusion
 
 Even though the machine learning became one of the hot topics in current days in almost all the fields, trust, transparency and fairness of the predictive models has not been properly considered. In high stake settings, where it makes a direct impact on people's lives or future of a business it is important to obtain the trust of the domain experts to use the model predictions in decision making process. In the above workflow, we have trained 8 machine learning algorithms in periodic manner using cohort concept and designed  a grid search for the time series data to optimize without having a data leakage. Next, we  obtained the overall performance of the predictions to select the best performing models. Once those models were selected the top-K (here we have taken K as 100) recall has been measured to select the best predictive model for the task and selected CatBoost model for further analysis.
-Next we have used explainable AI models (SHAP and LIME) analyse individual analysis of the predictions, there we obtained the importance of each attribute separately for the prediction of each instance. Once the top-k,  middle-K and bottom-k importance of attributes are selected, then values are normalized for each instance (addition of importance become 1 in each instance).  Finally the correlation, of the normalized importance with the actual values have been considered and identified the distribution of actual values along with the importance variation. 
+Next we have used explainable AI models (SHAP and LIME) analyse individual analysis of the predictions, there we obtained the importance of each attribute separately for the prediction of each instance. Once the top-k,  middle-K and bottom-k importance of attributes are selected, then values are normalized for each instance (addition of importance become 1 in each instance).  Finally the correlation, of the normalized importance with the actual values have been considered and identified the distribution of actual values along with the importance variation.
 
-In conclusion, the final machine learning model has adhere to the thinking pattern of users and domain experts can use the explanation to improve the project quality using the insights of the model. 
-
-## Publications
-1. [Semester 7 report](./)
-2. [Semester 7 slides](./)
-3. [Semester 8 report](./)
-4. [Semester 8 slides](./)
-5. Author 1, Author 2 and Author 3 "Research paper title" (2021). [PDF](./).
-
+In conclusion, the final machine learning model has adhere to the thinking pattern of users and domain experts can use the explanation to improve the project quality using the insights of the model.
 
 ## Links
 
